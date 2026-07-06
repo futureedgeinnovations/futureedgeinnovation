@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Future Edge Innovation</title>
+
+<title>Future Edge Innovation Pvt. Ltd.</title>
 
 <style>
 
@@ -11,44 +12,42 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-font-family:Arial,Helvetica,sans-serif;
 background:#f5f7fb;
-color:#333;
-line-height:1.6;
+color:#222;
 }
 
 header{
-background:#0B5CAD;
-color:white;
-text-align:center;
-padding:60px 20px;
-}
-
-header h1{
-font-size:48px;
-margin-bottom:15px;
-}
-
-header p{
-font-size:22px;
-}
-
-nav{
-background:#083B6E;
-padding:18px;
-text-align:center;
+background:#071B46;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
 position:sticky;
 top:0;
+z-index:1000;
+}
+
+.logo{
+color:#FFD700;
+font-size:28px;
+font-weight:bold;
+}
+
+.logo span{
+display:block;
+font-size:14px;
+color:white;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-margin:15px;
-font-size:18px;
+margin-left:28px;
+font-size:16px;
 font-weight:bold;
 }
 
@@ -56,40 +55,74 @@ nav a:hover{
 color:#FFD700;
 }
 
-section{
-padding:60px 10%;
-}
-
-.card{
-background:white;
-padding:30px;
-border-radius:12px;
-box-shadow:0 0 15px rgba(0,0,0,.12);
-margin-bottom:30px;
-}
-
-h2{
-color:#0B5CAD;
-margin-bottom:20px;
-font-size:34px;
-}
-
-.button{
-display:inline-block;
-background:#25D366;
+.hero{
+background:linear-gradient(rgba(7,27,70,.9),rgba(7,27,70,.9)),
+url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
 color:white;
-padding:14px 25px;
+padding:120px 8%;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero h2{
+font-size:42px;
+color:#FFD700;
+margin-bottom:25px;
+}
+
+.hero p{
+font-size:20px;
+max-width:900px;
+margin:auto;
+line-height:1.8;
+}
+
+.buttons{
+margin-top:40px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
 border-radius:8px;
 text-decoration:none;
 font-weight:bold;
-margin-top:20px;
+margin:10px;
 }
 
-footer{
-background:#083B6E;
+.btn1{
+background:#FFD700;
+color:#071B46;
+}
+
+.btn2{
+border:2px solid white;
 color:white;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+gap:60px;
+background:#0B255A;
+color:white;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.stats div{
 text-align:center;
-padding:25px;
+}
+
+.stats h3{
+font-size:40px;
+color:#FFD700;
 }
 
 </style>
@@ -100,149 +133,339 @@ padding:25px;
 
 <header>
 
-<h1>Future Edge Innovation</h1>
+<div class="logo">
+Future Edge Innovation
+<span>Pvt. Ltd.</span>
+</div>
 
-<p>Academic & Research Consultancy</p>
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Founder</a>
+<a href="#">Team</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
 
 </header>
 
-<nav>
+<section class="hero">
 
-<a href="#about">About</a>
+<h1>Empowering Research.</h1>
 
-<a href="#services">Services</a>
-
-<a href="#founder">Founder</a>
-
-<a href="#contact">Contact</a>
-
-</nav>
-<section id="about">
-
-<div class="card">
-
-<h2>About Us</h2>
+<h2>Driving Innovation.</h2>
 
 <p>
-
-Future Edge Innovation is a professional Academic & Research Consultancy dedicated to providing high-quality support for students, researchers, scholars, faculty members and professionals.
-
-We provide expert guidance for Thesis, Dissertation, Research Papers, Review Papers, Project Reports, Book Writing, Journal Publications, PPT Preparation, Data Analysis and Academic Documentation.
-
-Our mission is to deliver innovative, ethical and high-quality research support that helps clients achieve academic excellence.
-
+Professional Academic, Research & Innovation Consultancy
+for Students, Researchers, Faculty Members, Institutions,
+Industries and Professionals.
 </p>
+
+<div class="buttons">
+
+<a href="#" class="btn btn1">Explore Services</a>
+
+<a href="#" class="btn btn2">Get Free Consultation</a>
 
 </div>
 
 </section>
 
-<section id="services">
+<section class="stats">
 
-<div class="card">
-
-<h2>Our Services</h2>
-
-<ul>
-
-<li>Thesis Guidance</li>
-
-<li>Dissertation Support</li>
-
-<li>Research Paper Writing</li>
-
-<li>Research Paper Editing</li>
-
-<li>Review Paper Writing</li>
-
-<li>Book Writing Support</li>
-
-<li>Project Report Writing</li>
-
-<li>Mini & Major Projects</li>
-
-<li>PPT Design</li>
-
-<li>Synopsis Preparation</li>
-
-<li>Proposal Writing</li>
-
-<li>Journal Publication Support</li>
-
-<li>Patent Documentation</li>
-
-<li>Data Analysis (SPSS, Excel, R)</li>
-
-<li>Plagiarism Checking</li>
-
-</ul>
-
+<div>
+<h3>500+</h3>
+<p>Students Guided</p>
 </div>
 
-</section>
-<section id="founder">
+<div>
+<h3>200+</h3>
+<p>Research Papers</p>
+</div>
 
-<div class="card">
+<div>
+<h3>50+</h3>
+<p>Institutions Served</p>
+</div>
 
-<h2>Founder</h2>
-
-<p><strong>Name :</strong> Founder Name</p>
-
-<p>
-Write the founder profile here. You can edit this anytime and add qualifications, experience and achievements.
-</p>
-
-<h2>Co-Founder</h2>
-
-<p><strong>Name :</strong> Co-Founder Name</p>
-
-<p>
-Write the Co-Founder profile here.
-</p>
-
+<div>
+<h3>1+</h3>
+<p>Years Experience</p>
 </div>
 
 </section>
 
-<section id="contact">
+</body>
+</html>
+<section style="padding:80px 8%;background:white;">
 
-<div class="card">
+<h2 style="text-align:center;font-size:42px;color:#071B46;margin-bottom:20px;">
+About Future Edge Innovation
+</h2>
 
-<h2>Contact Us</h2>
+<p style="text-align:center;font-size:18px;max-width:1000px;margin:auto;line-height:1.9;color:#555;">
 
-<p><strong>Mobile :</strong> +91 XXXXXXXXXX</p>
+Future Edge Innovation Pvt. Ltd. is a professional Academic,
+Research and Innovation Consultancy committed to delivering
+high-quality research guidance, documentation support,
+academic consulting and innovative solutions for students,
+researchers, faculty members, educational institutions,
+industries and professionals.
 
-<p><strong>Email :</strong> futureedgeinnovation@gmail.com</p>
+Our objective is to provide reliable, ethical and innovative
+services that help individuals and organizations achieve
+academic excellence, research quality and professional growth.
 
-<p><strong>Website :</strong> www.futureedgeinnovation.in</p>
+</p>
 
-<p><strong>Address :</strong> Your Office Address</p>
+</section>
 
-<a class="button" href="https://wa.me/91XXXXXXXXXX">
+<section style="padding:80px 8%;background:#F4F7FB;">
+
+<h2 style="text-align:center;font-size:40px;color:#071B46;margin-bottom:50px;">
+Why Choose Us?
+</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;">
+
+<div style="background:white;padding:30px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
+<h3 style="color:#0B5CAD;">Research Excellence</h3>
+<p>Professional academic and research consultancy with quality-focused solutions.</p>
+</div>
+
+<div style="background:white;padding:30px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
+<h3 style="color:#0B5CAD;">Expert Guidance</h3>
+<p>Personalized guidance for students, scholars, faculty members and professionals.</p>
+</div>
+
+<div style="background:white;padding:30px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.1);">
+<h3 style="color:#0B5CAD;">Innovation</h3>
+<p>Creative solutions for research, documentation, publications and innovation projects.</p>
+</div>
+
+</div>
+
+</section>
+
+<section style="padding:80px 8%;background:white;">
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:40px;">
+
+<div>
+
+<h2 style="color:#071B46;">Our Mission</h2>
+
+<p style="line-height:1.9;">
+To empower students, researchers and professionals through
+quality academic guidance, research excellence,
+innovation and consultancy services.
+</p>
+
+</div>
+
+<div>
+
+<h2 style="color:#071B46;">Our Vision</h2>
+
+<p style="line-height:1.9;">
+To become a globally trusted organization in academic,
+research and innovation consultancy by delivering
+professional, ethical and innovative solutions.
+</p>
+
+</div>
+
+</div>
+
+</section>
+<section style="padding:80px 8%;background:#071B46;color:white;">
+
+<h2 style="text-align:center;font-size:42px;margin-bottom:15px;">
+Our Services
+</h2>
+
+<p style="text-align:center;font-size:18px;color:#ddd;margin-bottom:50px;">
+Comprehensive Academic, Research & Innovation Consultancy Services
+</p>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px;">
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">🎓 Thesis Guidance</h3>
+<p>Professional guidance for UG, PG & Ph.D. thesis preparation.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">📘 Dissertation Support</h3>
+<p>Complete dissertation planning, formatting and documentation support.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">📄 Research Paper</h3>
+<p>Research paper guidance, editing and journal preparation.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">📚 Review Paper</h3>
+<p>Systematic review and literature review assistance.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">📁 Project Report</h3>
+<p>Professional project documentation and report preparation.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">📖 Book Writing</h3>
+<p>Book writing, editing and publication support.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">📊 Data Analysis</h3>
+<p>SPSS, Excel, R and Python data analysis assistance.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">📝 Synopsis & Proposal</h3>
+<p>Research synopsis and proposal writing support.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">📑 Journal Publication</h3>
+<p>Publication guidance for Scopus, UGC Care and peer-reviewed journals.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">💡 Patent Support</h3>
+<p>Patent documentation and innovation consultancy.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">🎨 PPT Design</h3>
+<p>Professional academic presentations and seminar PPTs.</p>
+</div>
+
+<div style="background:white;color:#222;padding:25px;border-radius:12px;">
+<h3 style="color:#0B5CAD;">✅ Plagiarism & Referencing</h3>
+<p>Reference formatting and plagiarism guidance.</p>
+</div>
+
+</div>
+
+</section>
+<section style="padding:80px 8%;background:#071B46;color:white;">
+
+<h2 style="text-align:center;font-size:42px;margin-bottom:15px;">
+Gallery
+</h2>
+
+<p style="text-align:center;color:#ddd;margin-bottom:50px;">
+Our Work • Research • Innovation • Academic Excellence
+</p>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;">
+
+<div style="background:white;color:#333;padding:15px;border-radius:12px;text-align:center;">
+<img src="gallery1.jpg" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
+<h3 style="margin-top:15px;color:#0B5CAD;">Research Activities</h3>
+</div>
+
+<div style="background:white;color:#333;padding:15px;border-radius:12px;text-align:center;">
+<img src="gallery2.jpg" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
+<h3 style="margin-top:15px;color:#0B5CAD;">Projects</h3>
+</div>
+
+<div style="background:white;color:#333;padding:15px;border-radius:12px;text-align:center;">
+<img src="gallery3.jpg" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
+<h3 style="margin-top:15px;color:#0B5CAD;">Innovation</h3>
+</div>
+
+</div>
+
+</section>
+
+<section style="padding:80px 8%;background:white;">
+
+<h2 style="text-align:center;color:#071B46;font-size:42px;">
+Contact Us
+</h2>
+
+<div style="max-width:800px;margin:auto;font-size:18px;line-height:2;">
+
+<p><strong>📞 Mobile:</strong> +91 XXXXXXXXXX</p>
+
+<p><strong>📧 Email:</strong> futureedgeinnovation@gmail.com</p>
+
+<p><strong>🌐 Website:</strong> https://futureedgeinnovation.in</p>
+
+<p><strong>📍 Address:</strong> Your Office Address</p>
+
+<p style="text-align:center;margin-top:35px;">
+
+<a href="https://wa.me/91XXXXXXXXXX"
+style="background:#25D366;color:white;padding:16px 35px;
+text-decoration:none;border-radius:10px;font-size:18px;font-weight:bold;">
+
 Chat on WhatsApp
+
 </a>
 
+</p>
+
 </div>
 
 </section>
-<footer>
+<footer style="background:#071B46;color:white;padding:50px 8%;">
 
-<h3>Future Edge Innovation</h3>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;">
 
-<p>Academic & Research Consultancy</p>
-
+<div>
+<h2 style="color:#FFD700;">Future Edge Innovation Pvt. Ltd.</h2>
 <p>
-Thesis Guidance | Dissertation Support | Research Paper |
-Review Paper | Project Report | Book Writing |
-Journal Publication | Data Analysis | PPT Design
+Professional Academic, Research & Innovation Consultancy committed to excellence, integrity and innovation.
 </p>
+</div>
 
-<p>
-© 2026 Future Edge Innovation. All Rights Reserved.
+<div>
+<h3 style="color:#FFD700;">Quick Links</h3>
+<p>Home</p>
+<p>About Us</p>
+<p>Services</p>
+<p>Founder</p>
+<p>Gallery</p>
+<p>Contact Us</p>
+</div>
+
+<div>
+<h3 style="color:#FFD700;">Our Services</h3>
+<p>Research Paper</p>
+<p>Thesis Guidance</p>
+<p>Dissertation Support</p>
+<p>Book Writing</p>
+<p>Project Reports</p>
+<p>Data Analysis</p>
+</div>
+
+<div>
+<h3 style="color:#FFD700;">Follow Us</h3>
+
+<p>Facebook</p>
+<p>Instagram</p>
+<p>LinkedIn</p>
+<p>YouTube</p>
+
+</div>
+
+</div>
+
+<hr style="margin:40px 0;border:1px solid #ffffff33;">
+
+<p style="text-align:center;font-size:16px;">
+© 2026 Future Edge Innovation Pvt. Ltd. All Rights Reserved.
 </p>
 
 </footer>
 
 </body>
-
 </html>
