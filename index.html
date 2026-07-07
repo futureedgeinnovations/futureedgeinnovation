@@ -653,26 +653,24 @@ Enquiry Form
 Get in touch with us for academic, research and professional consultancy services.
 </p>
 
-<form style="max-width:750px;margin:auto;background:#F5F7FB;padding:40px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,.08);">
+<form action="https://api.web3forms.com/submit" method="POST"
+style="max-width:750px;margin:auto;background:#F5F7FB;padding:40px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,.08);">
+     <input type="hidden" name="access_key" value="0e12ca13-4c93-44c3-8c4c-23faece5294c">
 
-<input type="text" placeholder="Full Name" style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ccc;border-radius:8px;font-size:16px;">
+<input type="hidden" name="subject" value="New Enquiry - Future Edge Innovation">
+<input type="text" name="name" placeholder="Full Name" required style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ccc;border-radius:8px;font-size:16px;">
+<input type="tel" name="phone" placeholder="Mobile Number" required style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ccc;border-radius:8px;font-size:16px;">
 
-<input type="tel" placeholder="Mobile Number" style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ccc;border-radius:8px;font-size:16px;">
+<input type="email" name="email" placeholder="Email Address" required ...>
 
-<input type="email" placeholder="Email Address" style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ccc;border-radius:8px;font-size:16px;">
+<select name="service" required style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ccc;border-radius:8px;font-size:16px;">
 
-<select style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ccc;border-radius:8px;font-size:16px;">
 <option>Select Service</option>
 <option>Thesis Guidance</option>
-<option>Research Paper Writing</option>
-<option>Journal Publication</option>
-<option>Project Report</option>
-<option>Data Analysis</option>
-<option>Patent Documentation</option>
-<option>Other</option>
+...
 </select>
 
-<textarea placeholder="Your Message" rows="5" style="width:100%;padding:15px;margin-bottom:25px;border:1px solid #ccc;border-radius:8px;font-size:16px;"></textarea>
+<textarea name="message" placeholder="Your Message" rows="5" required style="width:100%;padding:15px;margin-bottom:25px;border:1px solid #ccc;border-radius:8px;font-size:16px;"></textarea>
 
 <div style="text-align:center;">
 <button type="submit" style="background:#071B46;color:white;padding:15px 40px;border:none;border-radius:8px;font-size:18px;font-weight:bold;cursor:pointer;">
