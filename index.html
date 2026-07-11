@@ -213,7 +213,93 @@ font-size:18px;
 font-size:14px;
 color:#666;
 }
+
+/* ================= CONNECT WITH US ================= */
+
+.connect-section{
+    padding:70px 20px;
+    background:#f8f9fc;
+    text-align:center;
+}
+
+.connect-section h2{
+    font-size:38px;
+    color:#071B46;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.connect-subtitle{
+    font-size:18px;
+    color:#666;
+    margin-bottom:50px;
+}
+
+.qr-container{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+}
+
+.qr-card{
+    background:#fff;
+    width:260px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.qr-card:hover{
+    transform:translateY(-8px);
+}
+
+.qr-card img{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+    margin-bottom:18px;
+}
+
+.qr-card h3{
+    color:#071B46;
+    font-size:22px;
+    margin-bottom:8px;
+}
+
+.qr-card p{
+    color:#666;
+    font-size:16px;
+}
+
+.connect-footer{
+    margin-top:40px;
+    font-size:18px;
+    color:#071B46;
+    font-weight:bold;
+}
+
+@media(max-width:768px){
+
+.qr-container{
+    flex-direction:column;
+    align-items:center;
+}
+
+.qr-card{
+    width:100%;
+    max-width:320px;
+}
+
+.connect-section h2{
+    font-size:30px;
+}
+
+}
+
 </style>
+    
 </head>
 
 <body>
@@ -1055,6 +1141,43 @@ Find answers to the most commonly asked questions about our services.
 
 </div>
 
+</section>
+<!-- ================= CONNECT WITH US ================= -->
+<section class="connect-section">
+    <div class="container">
+
+        <h2>CONNECT WITH US</h2>
+        <p class="connect-subtitle">
+            Stay Connected with Future Edge Innovation Pvt. Ltd.
+        </p>
+
+        <div class="qr-container">
+
+            <div class="qr-card">
+                <img src="instagram-qr.png" alt="Instagram QR">
+                <h3>📷 Instagram</h3>
+                <p>Scan to Follow</p>
+            </div>
+
+            <div class="qr-card">
+                <img src="telegram-qr.png" alt="Telegram QR">
+                <h3>📢 Telegram</h3>
+                <p>Scan to Join</p>
+            </div>
+
+            <div class="qr-card">
+                <img src="whatsapp-qr.png" alt="WhatsApp QR">
+                <h3>💬 WhatsApp</h3>
+                <p>Scan to Chat</p>
+            </div>
+
+        </div>
+
+        <div class="connect-footer">
+            Follow Us for Research Updates, Publications & Academic Opportunities
+        </div>
+
+    </div>
 </section>
 <section id="contact" style="background:#071B46;color:white;padding:90px 8%;">
 
